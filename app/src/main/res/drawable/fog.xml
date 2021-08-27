@@ -1,0 +1,138 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="64dp"
+            android:height="64dp"
+            android:viewportWidth="64"
+            android:viewportHeight="64">
+            <group android:name="thunder">
+                <path
+                    android:name="path_1"
+                    android:pathData="M 47.7 34.4 C 47.7 29.8 44 26.2 39.5 26.2 C 38.5 26.2 37.6 26.4 36.7 26.7 C 36.4 23.3 33.6 20.5 30.1 20.5 C 26.4 20.5 23.4 23.5 23.4 27.2 C 23.4 28 23.6 28.8 23.8 29.5 C 23.5 29.4 23.1 29.4 22.8 29.4 C 19.1 29.4 16.1 32.4 16.1 36.1 C 16.1 39.7 19 42.7 22.6 42.8 L 39.8 42.8 C 44.2 42.3 47.7 38.8 47.7 34.4 Z"
+                    android:fillColor="#57a0ee"
+                    android:strokeColor="#ffffff"
+                    android:strokeWidth="1.2"/>
+                <group android:name="fog">
+                    <group android:name="fog_top">
+                        <path
+                            android:name="path_3"
+                            android:pathData="M 22 45 L 43 45"
+                            android:fillColor="#91b9e3"
+                            android:strokeColor="#91b9e3"
+                            android:strokeWidth="1"
+                            android:strokeLineCap="round"/>
+                    </group>
+                    <group android:name="fog_center">
+                        <path
+                            android:name="path"
+                            android:pathData="M 25 48 L 40 48"
+                            android:fillColor="#91b9e3"
+                            android:strokeColor="#91b9e3"
+                            android:strokeWidth="1"
+                            android:strokeLineCap="round"/>
+                    </group>
+                    <group android:name="fog_bottom">
+                        <path
+                            android:name="path_2"
+                            android:pathData="M 20 51 L 45 51"
+                            android:fillColor="#91b9e3"
+                            android:strokeColor="#91b9e3"
+                            android:strokeWidth="1"
+                            android:strokeLineCap="round"/>
+                    </group>
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="fog_top">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:duration="1250"
+                    android:valueFrom="0"
+                    android:valueTo="5"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="1250"
+                    android:duration="2500"
+                    android:valueFrom="5"
+                    android:valueTo="-5"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="3750"
+                    android:duration="1250"
+                    android:valueFrom="-5"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="fog_center">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="2000"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="2.5"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="3500"
+                    android:duration="500"
+                    android:valueFrom="-2.5"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="2500"
+                    android:duration="1000"
+                    android:valueFrom="2.5"
+                    android:valueTo="-2.5"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="fog_bottom">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:duration="1250"
+                    android:valueFrom="0"
+                    android:valueTo="-5"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="1250"
+                    android:duration="2500"
+                    android:valueFrom="-5"
+                    android:valueTo="5"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="3750"
+                    android:duration="1250"
+                    android:valueFrom="5"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

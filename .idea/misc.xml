@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Tom/Desktop/Projects/Personal/Weather-App/app/src/main/res/drawable/cloudy.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Tom/Desktop/Projects/Personal/Weather-App/app/src/main/res/drawable/cloudy_moon.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Tom/Desktop/Projects/Personal/Weather-App/app/src/main/res/drawable/cloudy_sun.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Tom/Desktop/Projects/Personal/Weather-App/app/src/main/res/drawable/ic_cloudy_sun.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Tom/Desktop/Projects/Personal/Weather-App/app/src/main/res/drawable/ic_fog.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Tom/Desktop/Projects/Personal/Weather-App/app/src/main/res/drawable/thunder.xml" value="0.5446153846153846" />
         <entry key="..\:/Users/Tom/Desktop/Projects/Personal/Weather-App/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
